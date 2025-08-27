@@ -1,0 +1,293 @@
+Office of the CEO – Pilot Project (CEO Outreach Agent) 
+1. Pilot Objective
+Demonstrate how AI can generate authentic, CEO-level communications at scale, starting with Jason’s 20–30 personalized outreach emails to top customers following the Aug 26 leadership PR release.
+
+2. What the AI Team Will Build
+Personalized Outreach Agent (Pilot #1)
+•	Purpose: Draft tailored outreach emails in Jason’s voice for top customers.
+•	Output: 20–30 short, high-touch messages that:
+o	Reference the leadership PR (Jason’s transition to CEO).
+o	Reinforce LifeSpeak’s direction (innovation, prevention, outcomes).
+o	Personalize the note to each customer (acknowledge partnership, relevance).
+
+3. Inputs Required for the AI Build
+The AI team needs training materials and context data to generate Jason-authentic outputs.
+A. Tone & Persona Training
+•	CEO Persona Guide (voice, tone, themes, sample phrases).
+👉 These create the “voice model” so AI drafts sound like Jason, not generic copy.
+B. Content Inputs for emails
+•	Final PR release text (leadership announcement).
+•	Customer list:
+o	Name, company, role.
+o	Relationship tier (strategic, high-value, new account).
+o	Any relevant personal/context notes (e.g., “longtime client, strong partner in wellness,” “recent renewal,” “health plan prospect”).
+👉 This allows AI to tailor each draft (e.g., “As a longtime partner…” vs. “I’m excited to begin working with you more closely…”).
+C. Guardrails & Style
+Length
+•	Short but impactful subject line 
+•	2–3 short paragraphs (150–200 words).
+•	Brevity is critical: concise but warm, without long corporate-style blocks.
+Tone
+•	Personal and direct: “I wanted to reach out…” rather than “LifeSpeak is pleased to announce…”
+•	Authentic: reflects Jason’s voice as a data-driven, innovative leader who values relationships.
+•	Optimistic and forward-looking: confidence in the company’s future, reassurance of continuity, emphasis on innovation.
+•	Accessible: businesslike but not overly formal. Avoid clinical or overly technical language.
+Prohibited Phrases & Framing
+•	Do not use clichés like “we’re thrilled,” “synergy,” “groundbreaking,” or “game-changing.”
+•	Avoid vague PR speak (“pleased to announce”).
+•	No jargon-heavy phrasing (“solutions-oriented,” “leveraging synergies”).
+•	Do not use em dashes. Use clear sentence breaks or commas.
+•	When referencing wellbeing: avoid faddish, trendy language. Emphasize prevention, outcomes, and real human impact.
+•	No dramatic framing (avoid alarmist words like “crisis,” “spiral,” or “revolutionary”).
+Style Choices
+•	Keep sentences crisp and declarative.
+•	Prioritize data + people: Jason should sound like someone who grounds optimism in evidence.
+•	Balance continuity (Michael’s ongoing role, trusted leadership) with progress (Jason’s focus on innovation and prevention).
+•	Messages should sound like a CEO writing to one person, not like a company writing to many.
+Call-to-Action
+•	Soft, relationship-based CTAs. Examples:
+o	“I look forward to continuing our partnership.”
+o	“Let’s connect soon to talk about your priorities.”
+o	“I welcome your thoughts as we move forward together.”
+•	Always close with a tone of openness and availability, never transactional.
+Humanizing writing:
+•	Keep your writing style simple and concise.
+•	Use clear and straightforward language.
+•	Write short, impactful sentences.
+•	Use active voice and avoid passive constructions.
+•	Focus on practical and actionable insights.
+•	Support points with specific examples, personal anecdotes, or data.
+•	Pose thought-provoking questions to engage the reader.
+•	Address the reader directly using “you” and “your.”
+•	Steer clear of clichés and metaphors.
+•	Avoid making broad generalizations.
+•	Skip introductory phrases like “in conclusion” or “in summary.”
+•	Do not include warnings, notes, or unnecessary extras—stick to the requested output.
+•	Refrain from using adjectives or adverbs excessively.
+•	Avoid hashtags, semicolons, emojis, and asterisks.
+
+Words to Avoid:
+
+Accordingly, Additionally, Arguably, Certainly, Consequently, Hence, However, Indeed, Moreover, Nevertheless, Nonetheless, Notwithstanding, Thus, Undoubtedly, Adept, Commendable, Dynamic, Efficient, Ever-evolving, Exciting, Exemplary, Innovative, Invaluable, Robust, Seamless, Synergistic, Thought-provoking, Transformative, Utmost, Vibrant, Vital, Efficiency, Institution, Integration, Implementation, Landscape, Optimization, Realm, Tapestry, Aligns, Augment, Delve, Embark, Facilitate, Maximize, Underscores, Utilize, A testament to…, In conclusion…, In summary…, It’s important to note/consider…, It’s worth noting that…, On the contrary.
+
+Example emails: 
+1. Longtime Customer
+Subject: A personal note on our next chapter
+Dear [First Name],
+I wanted to reach out personally following the recent announcement about my appointment as CEO of LifeSpeak. Michael will continue to be closely involved as Chair of our Advisory Board, so you’ll see both of us engaged as we build on the work we’ve started together.
+Your organization has been a valued partner through many of LifeSpeak’s milestones, and I’m deeply grateful for the trust you’ve placed in us. Looking ahead, my focus is on strengthening the prevention-first approach that sets us apart and continuing to deliver measurable outcomes for your people.
+I look forward to continuing our partnership and to connecting soon about your priorities for the year ahead.
+Warm regards,
+ Jason
+
+2. Strategic Partner
+Subject: Continuing our work together
+Dear [First Name],
+I wanted to share a quick personal note following the news of my appointment as CEO of LifeSpeak. Michael remains actively involved as Chair of our Advisory Board, so this is a moment of both continuity and forward progress for our team.
+Your partnership has been central to how we extend prevention-first support to more people. As we move ahead, I’m committed to deepening that collaboration and making sure we’re aligned on how best to serve the organizations and individuals who rely on us.
+I look forward to connecting soon and continuing the strong foundation we’ve built together.
+Warm regards,
+ Jason
+
+
+4. Workflow
+1.	AI drafts 20–30 personalized emails in Jason’s persona using inputs.
+2.	Comms team reviews/edits for nuance and relationship sensitivity.
+3.	Jason approves final versions.
+4.	Emails are sent manually by Jason (to preserve authenticity).
+
+DRAFT 
+AI Prompt: Personalized Outreach Agent – CEO Transition Emails
+Instruction to AI:
+Using the following reference materials, draft [X number] personalized customer emails from Jason Campana, CEO of LifeSpeak. Each email should be tailored to the customer based on the provided list and notes. Label each output with customer name + company, and separate drafts clearly for review. 
+Reference Materials (to be provided to AI):
+1.	Leadership Transition PR Announcement (Aug 26).
+2.	Leadership Transition FAQ Document (key messages).
+3.	CEO Persona Guide:
+a.	Voice: clear, confident, approachable, grounded in data and innovation.
+b.	Tone: personal, authentic, optimistic, not corporate or overly formal.
+c.	Guardrails:
+i.	Length: 2–3 short paragraphs (≤200 words).
+ii.	No clichés (e.g., “we’re thrilled,” “synergy,” “game-changing”).
+iii.	No jargon-heavy phrasing.
+iv.	No em dashes.
+v.	Wellbeing: emphasize prevention and outcomes, not fads or trends.
+vi.	Always sound like Jason writing to one person, not a broadcast message.
+d.	Style Examples: “I wanted to reach out personally following the announcement…” | “Michael will remain closely involved as Chair of our Advisory Board…” | “I value our partnership and look forward to continuing our work together.”
+4.	Customer List & Notes (sample format):
+a.	Customer Name: [First Name, Last Name]
+b.	Company: [Company Name]
+c.	Title: [Title]
+d.	Type: [Longtime Customer / New Prospect / Strategic Partner]
+e.	Notes: [Renewed in 2024, strong advocate for prevention story; Recently engaged prospect in healthcare sector; Key reseller partner in union market, etc.]
+Output Requirements:
+•	Generate one draft email per customer (label each email with customer name/company).
+•	Use the structure:
+o	Personal opening.
+o	Acknowledge leadership transition (from PR + FAQ).
+o	Relevance to the specific customer relationship (based on notes).
+o	Warm, authentic closing with soft call-to-action.
+•	Ensure language is consistent with CEO persona and guardrails.
+•	Emails should feel individualized, not templated.
+Deliverable:
+•	Draft emails, labeled by customer name and company.
+•	Each draft ≤200 words, formatted for easy human review/editing.
+
+
+5. Success Metrics for the Pilot
+•	Efficiency: Time saved vs. manual drafting.
+•	Authenticity: Jason + comms agree tone feels natural.
+•	Engagement: Open/reply rate of customer emails.
+•	Scalability: Framework can be reused for future CEO comms (events, PR follow-ups).
+
+
+6. Immediate Next Steps
+1.	MaryBeth delivers inputs package to AI team:
+a.	Persona guide
+b.	Final PR text (Aug 26) and FAQ
+c.	Customer list + personal/context notes.
+2.	AI team builds Personalized Outreach Agent prototype.
+3.	Comms team tests outputs → review/edit → finalize.
+4.	Jason sends 20–30 personalized emails post-PR launch.
+
+
+Appendix 
+Inputs
+Persona guide:
+
+Jason Campana – CEO Persona Guide
+(Bold Draft for Review & Approval)
+Core Archetype
+•	Voice: Straightforward, steady, confident.
+•	Style: Speaks in short, clear statements that cut through noise.
+•	Persona Positioning: Pragmatic builder with a bias for action. Data-driven but not dry — willing to say what others won’t.
+
+Tone & Qualities
+•	Direct: No filler. Gets to the point.
+•	Bold: Will make clear, decisive statements.
+•	Human: Talks like a leader who has run businesses, not like a marketer.
+•	Outcome-focused: Always comes back to impact and results.
+•	Optimistic: Believes prevention and innovation create growth — for people and companies.
+
+Themes to Reinforce
+1.	Prevention is strategy – not an add-on, but the core growth lever.
+2.	AI as a tool – useful only if it makes things simpler and sharper.
+3.	Proof over promises – let the numbers do the talking.
+4.	Relationships first – success is built partner by partner, customer by customer.
+5.	Momentum – steady progress beats grand gestures.
+Style Examples (Bolder Voice)
+•	“Prevention isn’t a perk. It’s the smartest business strategy you can make right now.”
+•	“AI doesn’t matter if it creates more noise. It matters if it makes decisions clearer.”
+•	“Most companies wait until there’s a crisis. That’s too late — and it’s too expensive.”
+•	“The market is full of wellness tools that look good in a brochure but don’t get used. That’s not us.”
+•	“I’ll measure success in fewer doctor visits, less burnout, and stronger retention — not vanity metrics.”
+
+What to Avoid
+•	Long, winding sentences.
+•	Over-polished or corporate press-release tone.
+•	Empty superlatives (“world-class,” “innovative,” “transformative”).
+•	Hesitant qualifiers (“we hope,” “we believe”) — Jason speaks with conviction.
+
+Sample “In Jason’s Voice” – Bold
+•	“Burnout costs companies millions every year. Prevention cuts that bill in half.”
+•	“If your wellness program isn’t driving outcomes, it’s just window dressing.”
+•	“Partnerships only work if they create real value on both sides. That’s my bar.”
+•	“I don’t want LifeSpeak to be the biggest. I want it to be the one that works.”
+•	“The real competitive edge isn’t waiting until people are sick. It’s keeping them well.”
+
+Information: 
+1.	Press release: 
+LifeSpeak Names Jason Campana as CEO to Accelerate AI-Driven Preventative Wellness Innovation
+ 
+Veteran SaaS leader to drive growth, partnerships expansions and technology advancements following go-private transaction, targeting 20% year-over-year growth
+ 
+MINNEAPOLIS (August 26, 2025) — LifeSpeak Inc., the pioneer in digital preventative wellbeing solutions, today announced the appointment of Jason Campana as Chief Executive Officer to spearhead the company’s next phase of growth following its go-private transaction and $50 million funding infusion from new investors.
+ 
+With extensive leadership in SaaS and health technology, Campana has guided organizations through pivotal moments of growth, helping define markets, set new standards, and deliver results at scale. Most recently, he served as LifeSpeak’s Chief Operating Officer, and previously spent more than a decade at Wellbeats, where he served as Senior Vice President of Operations and scaled the company significantly, leading to its acquisition by LifeSpeak in 2022.
+ 
+“LifeSpeak is at a pivotal moment in our journey, and I’m honored to lead us into the next phase of growth,” said Campana. “Our mission is simple but powerful: to make preventive wellbeing accessible to everyone. We partner with organizations to help their employees take a proactive approach to health, offering expert resources and personalized guidance that empower people to take charge and thrive at work and in life. Now as a private company with fresh investment, we are poised to reach our goal of expanding to 20 million users by 2027 while driving measurable outcomes for our partners and customers.”
+ 
+Campana succeeds founder Michael Held, who founded LifeSpeak in 2004 and will remain a board member and chair of the company’s advisory board.
+ 
+“This is the right moment for Jason to take the helm, and I couldn’t be more thrilled for him,” said Held. “His strategic vision and deep understanding of our market will ensure LifeSpeak delivers even greater value to our partners, customers and employees.”
+ 
+LifeSpeak combines advanced AI and digital capabilities with decades of expertise from health and wellness professionals to deliver thousands of expert-led resources, coaching tools and personalized guidance across mental health, physical health, caregiving, substance use and more. 
+
+Unlike clinical tools or narrow point solutions, LifeSpeak is built for early intervention and lasting behavior change. A recent LifeSpeak study found that 97% of members say LifeSpeak helps them manage stress and avoid burnout. Research shows burnout costs employers an average of $4000 up to $21,000 per employee per year. For a 1,000-person company, that adds up to about $5 million in lost productivity annually. Even a modest 10% reduction equals $500,000 in annual savings. 
+The study also found that 90.5% of users report fewer doctor or therapist visits. With average visits ranging from $100–$250, avoiding even one visit per employee translates into $100K–$250K saved annually in a 1,000-person company.
+ 
+“LifeSpeak isn’t just another wellness app — it’s a preventative health powerhouse improving outcomes for millions and reducing healthcare costs for employers,” Campana added. “I’ve never been more excited about our opportunity to grow and redefine wellbeing across industries, and I’m looking forward to working alongside our employees, partners, customers and investors to make this vision a reality.”
+ 
+For more information about LifeSpeak, please visit www.lifespeak.com.
+ 
+About LifeSpeak Inc.
+LifeSpeak Inc. is the leading provider of digital preventative wellbeing solutions, supporting over 14 million users across more than 1,000 organizations worldwide. Our expert-led, AI-powered wellbeing suite empowers people at every age, stage and life experience with thousands of resources for early intervention and lasting behavior change. From mental and physical health to caregiving and substance use management, LifeSpeak delivers personalized guidance that improves health outcomes, lowers claims costs by up to 25% and builds healthier, more engaged, higher-performing teams. Trusted by top employers and wellness partners, LifeSpeak is shaping the future of workplace wellbeing. Learn more at www.lifespeak.com. 
+Contact:
+ lifespeak-pr@walkersands.com
+
+2.	Announcement FAQs
+ 
+What does this leadership transition mean for LifeSpeak right now? Why is this the right moment for change? 
+•	LifeSpeak is at a pivotal moment in our growth journey, having just completed our go-private transaction and secured $50 million in new funding.
+•	This transition marks the beginning of a new phase of growth with fresh investor support and a sharpened focus on innovation. 
+•	It’s also the right time for preventative wellness — employees are facing record levels of stress and burnout, and our model of early intervention, AI-powered personalization and real behavior change is exactly what organizations need to support healthier, more resilient workforces in today’s day in age. 
+
+What unique perspective do you bring as the new CEO, given your background at both LifeSpeak and Wellbeats? 
+•	I have spent the majority of my career at high-growth SaaS and health technology companies, guiding organizations through pivotal moments of growth and helping define markets, set new standards and deliver results at scale
+•	I’ve spent the past three years at LifeSpeak as COO, overseeing our sales, marketing, client experience and operations teams – and driving our preventative wellbeing strategy and leading the integration of 5 companies across 4 acquisitions. 
+•	Before joining LifeSpeak, I spent more than a decade at Wellbeats, focused on scaling operations and building partnerships, ultimately leading to the company’s successful acquisition by LifeSpeak in 2022.
+•	I bring a deep understanding of how to blend SaaS innovation with meaningful health outcomes — building solutions that don’t just scale broadly, but truly improve how people proactively manage their health and wellbeing.
+
+
+How are you approaching the opportunity and responsibility?  
+•	I’m honored to lead LifeSpeak into our next phase of growth, and further our mission of making preventative wellbeing accessible to everyone. 
+•	I’m focused on listening to our employees, customers, partners, and investors to ensure that our solutions evolve in ways that are both innovative and impactful for the organizations and individuals we serve.
+•	My goal is to build on our strong foundation, while driving faster innovation and growth that stays true to our mission.
+
+What is your vision for LifeSpeak’s next chapter? How will it differ from your predecessor’s approach, especially considering Michael Held was the founder and CEO of LifeSpeak for more than two decades? 
+•	Michael built LifeSpeak from the ground up and created the foundation for preventative wellbeing in the workplace. My vision is to scale that impact to millions more people.
+•	With new investment and technology, we’re positioned to expand to 20M+ users by 2027, while pushing further into AI-driven personalization and engagement.
+•	The difference will be scale and speed: where Michael pioneered, my focus is on accelerating growth and ensuring we set the industry standard for preventative care.
+
+What are your top priorities in your first 100 days as CEO?
+•	Align with employees, leadership and our investor stakeholders on our refreshed vision and growth strategy for the next two years.
+•	Strengthen strategic partnerships with wellness platforms, resellers and employers. 
+•	Accelerate investment in AI-driven personalization to make our preventative wellbeing solutions even more engaging and effective.
+•	Maintain and expand our library of thousands of expert-led resources, coaching tools and personalized guidance across mental health, physical health, caregiving, substance use and more. 
+•	Ensure a smooth leadership transition while honoring the culture Michael built.
+
+
+What do you see as the biggest growth opportunities for LifeSpeak in the next 12-24 months? 
+•	Expanding our preventative wellness solutions to more organizations and reaching 20M+ users globally by 2027.
+•	Continuing to harness AI to deliver personalized, scalable wellbeing support to millions of people.
+•	Creating new and deepening existing partnerships with employers, resellers and wellbeing providers who are looking for preventative solutions that reduce absenteeism, lower claims costs and boost performance among their employees.
+•	Leveraging and expanding on our content expertise to continue setting the bar for early intervention and long-term behavior change.
+
+LifeSpeak recently transitioned from public to private ownership. How does this change position the company for growth? 
+•	Clean balance sheet, $50M funding infusion and streamlined structure allow us to be more agile, focused and prime for growth than ever before. 
+•	We’re now backed by investors with deep expertise in scaling AI and SaaS technology companies. 
+•	Now that we’re private, we also have more stability and flexibility to accelerate innovation, expand partnership and seize new opportunities quickly. 
+
+
+How will you position LifeSpeak to stand out in a competitive market?
+•	Unlike clinical tools that only show up when problems escalate, or rigid point solutions that lock you into narrow, inflexible offerings, LifeSpeak is built for early intervention and lasting impact. 
+•	Grounded in a proven model of education and behavior change, LifeSpeak brings together thousands of expert-led, evidence-based resources, coaching and personalized guidance across the full care continuum. 
+•	Our modular, AI-personalized solution offers companies the flexibility to meet diverse employee needs – and allows companies to define, scale and evolve whole-person wellness for their specific organization and employee needs
+•	Key data points that support our market leadership include: 
+o	90.5% of LifeSpeak members reduce doctor or therapist visits (lowering healthcare costs)
+o	88.5% avoid missing work (keeping productivity high and absenteeism low)
+o	92% feel that LifeSpeak makes them more likely to stay with their employer (increasing retention)
+•	99% say that LifeSpeak supports both work and personal life (driving whole-person wellbeing)
+
+What role will AI play in your strategy moving forward?
+•	AI is core to our vision to deliver personalized, preventative wellness at scale. 
+•	AI powers tailored recommendations, nudges and digital engagement tools for our partners, customers and their employees. 
+•	Enhance our offerings to partners and resellers with data-driven insights that demonstrate measurable outcomes. 
+•	Support flexibility in our ability to provide modular solutions, ensuring that organizations can meet the specific needs of their employees in an efficient way. 
+
+What motivates you personally about preventative wellness? How does it shape your leadership approach and style as the CEO of LifeSpeak? 
+•	For more than 20 years, personal and community wellbeing has been a passion of mine. I’ve seen first-hand the impact that a commitment to preventative health and wellness can have on individuals and companies, and I’m deeply committed to bringing that to as many people as we possibly can at LifeSpeak. 
+•	Leading LifeSpeak is truly a dream opportunity – to steward a company I deeply care about, alongside people I respect and admire, into a future of continued growth and impact. 
+•	My leadership approach and style as CEO of LifeSpeak is simple: I’ll lead with transparency, collaboration and purpose – and with a commitment to winning together.
+•	We have bold ambitions for LifeSpeak, so I’ll focus on leading towards delivering measurable outcomes and creating meaningful impact for our partners, customers and their employees. 
+
