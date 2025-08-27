@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 """
-run_perplexity.py
-
 Reads customer_list.csv (Name,Company,Role,Relationship,Notes),
 builds a tailored prompt via prompt.get_prompt(...),
 calls Perplexity's Chat Completions API once per row,
@@ -12,7 +10,6 @@ expects a JSON response with:
     "Suggested_Email": "..."
   }
 and writes aggregated results to customer_emails.csv.
-
 
 """
 
@@ -178,4 +175,5 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
 
