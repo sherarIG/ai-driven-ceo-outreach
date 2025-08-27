@@ -23,8 +23,8 @@ Generate **concise, personalised emails in the CEO’s voice** for key customers
 
 ## 2 Features
 * **Prompt-efficient design** – static persona brief sent once per request, row data only 70 tokens.  
-* **Strict JSON schema** (`Person_Name`, `Company`, `Suggested_Email`) using the OpenAI-compatible `response_format` flag.  
-* **Robust pipeline** – retry logic, exponential back-off, UTF-8 sanitisation, environment-based secrets.  
+* **Strict JSON schema** (`Person_Name`, `Company`, `Suggested_Email`).
+* **Robust pipeline** – retry logic, exponential back-off, UTF-8 sanitisation.
 * **Plug-and-play persona** – update `src/ceo_brief.txt` to support other executives or languages.  
 * **Low run-time cost** – ≈ US $0.002 per email on “sonar-pro”.
 
