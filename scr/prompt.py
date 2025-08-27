@@ -44,17 +44,20 @@ def build_messages(person_name: str,
         "Person_Name, Company, Suggested_Email."
     )
 
-    # User message – row-specific fields + explicit output example
+  # User message – row-specific fields + explicit output example
     user_msg = (
         f"{row_block}\n\n###\n"
-        "Produce one JSON object following this example:\n"
+        "Return ONE JSON object exactly like this template:\n"
         '{"Person_Name": "Ada Lovelace", "Company": "Analytical Engines", '
-        '"Suggested_Email": "ada@analyticalengines.com"}'
+        '"Suggested_Email": "Subject: A personal note on our next chapter\\n\\n'
+        'Dear Ada,\\nI wanted to reach out personally following the recent '
+        'announcement about my appointment as CEO…\\n\\nWarm regards,\\nJason"}'
     )
 
     return [
         {"role": "system", "content": system_msg},
         {"role": "user",   "content": user_msg},
     ]
+
 
 
