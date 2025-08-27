@@ -13,11 +13,7 @@ expects a JSON response with:
   }
 and writes aggregated results to customer_emails.csv.
 
-Environment:
-  PPLX_API_KEY=<your api key>
 
-Usage:
-  python run_perplexity.py
 """
 
 import csv
@@ -182,3 +178,4 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
