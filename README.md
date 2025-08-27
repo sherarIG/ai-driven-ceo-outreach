@@ -30,23 +30,25 @@ Generate **concise, personalised emails in the CEO’s voice** for key customers
 
 ---
 
-## 3 Repository Layout
 ai-ceo-outreach/
-│
 ├── README.md
-├── .gitignore
-│
-├── src/
+├── requirements.txt # project-wide dependencies
+├── src/ # executable code
+│ ├── init.py
 │ ├── main_ai_mail_sender.py
 │ ├── prompt.py
 │ └── ceo_brief.txt
 │
 ├── data/
-│ ├── input/ → customer_list.csv
-│ └── output/ → customer_emails.csv (generated)
+│ ├── input/ # raw, version-controlled data
+│ │ └── customer_list.csv
+│ └── output/ # generated artefacts
+│ └── customer_emails.csv # (created by the script)
 │
-├── docs/
+├── docs/ # stakeholder assets
 │ ├── AI-Driven_CEO_Outreach_Pilot.pptx
+│
+└── 
 
 ## 4 Quick Start (P y C h a r m)
 
